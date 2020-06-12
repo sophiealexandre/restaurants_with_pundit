@@ -1,4 +1,6 @@
 // Specific CSS for your home-page
+
+
 body {
  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("http://sophiealexandre.eu/imagesgithub/Restaurant.jpg");
  background-color: #cccccc;
@@ -6,10 +8,20 @@ body {
  background-attachment: fixed;
  background-position: center;
  background-size: cover;
+ font-weight: bold;
+ font-size: 15px;
 }
-@font-face {
-   font-family: "CormorantInfant-Bold";
-   src: url('/assets/fonts/CormorantInfant-Bold.ttf')
+
+h1 {
+ font-weight: bold;
+ font-size: 20px;
+
+}
+a {
+ font-weight: bold;
+ font-size: 15px;
+ color: black;
+
 }
 
 .btn-flat {
@@ -46,6 +58,7 @@ body {
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
 }
 
 .footer {
@@ -53,17 +66,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 50px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
   position: fixed;
   width: 100%;
   bottom: 0;
+  color: black;
 
 }
 .footer-links {
   display: flex;
   align-items: center;
+  color: black;
 }
 .footer-links a {
   color: black;
@@ -76,5 +91,5 @@ body {
   opacity: 1;
 }
 .footer .fa-heart {
-  color: #D23333;
+  color: black;
 }
